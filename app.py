@@ -7,7 +7,7 @@ import sys
 def verificar_atualizacao():
     try:
         versao_atual = open('versao.txt').read().strip()
-        versao_remota = requests.get('https://raw.githubusercontent.com/Regis-Filho/MEU-PROJETO-TESTE/main/versao.txt').text.strip()
+        versao_remota = requests.get('https://github.com/Regis-Filho/meu-projeto-teste/blob/main/main/versao.txt').text.strip()
         if versao_atual != versao_remota:
             print('Nova versão disponível!.instalando...')
             subprocess.Popen(['atualizador.exe'])

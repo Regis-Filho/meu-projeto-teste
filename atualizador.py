@@ -4,7 +4,7 @@ import os
 import time
 import subprocess
 
-url_zip = "https://raw.githubusercontent.com/Regis-Filho/MEU-PROJETO-TESTE/main/app.zip"
+url_zip = "https://github.com/Regis-Filho/meu-projeto-teste/blob/main/main/app.zip"
 
 def atualizar():
     print("Baixando nova versão...")
